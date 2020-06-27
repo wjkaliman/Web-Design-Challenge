@@ -1,0 +1,103 @@
+body {
+  font-family: sans-serif;
+  font-size: 1.1em;
+  background-color:rgb(248, 244, 244);
+}
+
+.navbar-light .navbar-brand {
+  color: white;
+}
+
+.navbar {
+  background-color:white;
+  width: 100%;
+  padding: 0;
+}
+
+.navbar-brand {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  font-weight: bolder;
+  background-color: rgb(76, 20, 150);
+  padding: 10px;
+  margin-left: 5%;
+}
+
+.navbar-collapse {
+  position: absolute;
+  right: 10%;
+  font-size: medium;
+}
+
+.nav-item {
+  font-weight: bold;
+}
+
+.text-left {
+  text-align: left;
+  color: #333138;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+}
+
+.text-center {
+  color: #333138;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+}
+.thumbnail {
+  width:50%;
+}
+.main-image {      
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  float: left;
+}
+.col-md-8 {
+  background-color: white;
+}
+
+.col-sm-12,.col-md-4 {
+  background-color: white;
+}
+
+div.col-sm-12.col-md-12 div.col-lg-6.col-sm-12 img {
+  width: 100%;
+}
+
+.imagetiles {
+  background-color: white;
+}
+div.imagetiles div.col-lg-6.col-sm-12 img {
+  width: 100%;
+}
+
+div.col-sm-12.col-md-12 p {
+  color: black;
+  font-size: medium;
+}
+
+.panel-body:hover {
+  border-color: blueviolet;
+  border size: 50px;
+}
+/* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 480 pixels */
+@media (max-width: 480px) {
+  .navbar li {
+    padding: 10px;
+  }
+
+  .post {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .navbar ul {
+    visibility: hidden;
+  }
+
+  #nav-select {
+    visibility: visible;
+  }
+}
